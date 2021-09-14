@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.container{
+    margin: 4rem;
+    display: flex;
+}
+
+.container > div{
+    margin: 0 2rem;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #8e44ad;
+}
+.header h1{
+    text-align: center;
+    padding: 15px 0px;
+    color: #fff;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+    margin-top: 15px;
+}
+.center .button{
+    color: #fff;
+    font-size: 0.875em;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 2.8125em !important;
+    line-height: 3.75em;
+    background-color: #8e44ad;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+.center .button:hover{
+    background-color: #f1c40f;
+}
+.members{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.members .member-card{
+    width: 33.3333%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.card{
+    width: 14rem;
+    margin: auto;
+}
+.img-container{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.img-container img{
+    border-radius: 50%;
+    width: 100%;
+}
+.card h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #8e44ad;
+}
+.card p{
+    text-align: center;
+    margin-top: 10px;
+    color: #f1c40f;
+}
+#loader img{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
